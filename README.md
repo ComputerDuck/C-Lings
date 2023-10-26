@@ -2,7 +2,7 @@
 C-Lings is a project to teach C beginners the language in an interactive way.
 
 ## ⚠️ warning ⚠️
-*This project is still in development. It is **not complete** and there are no exercises yet*
+*This project is still in development and has some flaws. It is **not complete** and there are no exercises yet.*
 
 ## Using C-Lings
 1. to use C-Lings, compile comp.c and run it from the C-Lings directory with your arguments

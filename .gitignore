@@ -1,3 +1,5 @@
 comp
 out/*
+!out/README.md
 build/*
+!build/README.md
