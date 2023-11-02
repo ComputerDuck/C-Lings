@@ -1,7 +1,7 @@
 // +----------------------------------------------------+
 // |                welcome to C-LINGS                  |
-// | So you want to learn the c language. Great choice! |
-// | C is a very old language  but there is a reason it |
+// | So you want to learn the C language. Great choice! |
+// | C is a rather old language but there is a reason it|
 // | is  still in  use and it is  also a  language that |
 // | teaches a  lot of low  level concepts  like memory |
 // | management  and many  other things  which we  will |
@@ -12,20 +12,17 @@
 // | and rustlings                                      |
 // +----------------------------------------------------+
 
-// this is an import of extern code which we can use in our 
-// code but we will learn more about this later.
+// this is an import. Ignore this for now
 #include <stdio.h>
 
-// This is the main function. It is the entry point of the 
-// program
-int main(void) {
-    // This function is from the stdio library we just importet
-    // which enables us to print something in the terminal,
-    // but there is something missing.
+// This is the main function. It is the entry point of the program
+int main() {
+    // printf is a function given to us from the stdio library
     //
     // TODO: Make this program print "hello world" on the screen
+    // ???("hello world");
     printf("hello world");
 
-    // we return 0 to signal that the program completet with no errors
+    // this signals that the program exited with no errors
     return 0;
 }

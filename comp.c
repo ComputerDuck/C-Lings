@@ -26,14 +26,15 @@ struct Exercise exercises[] = {
     {
         .file = "001_hello_world.c",
         .output = "hello world",
-        .hint = "printf is missing parameters",
-        .solution = "enter \"hello world\" between the brackets of printf()",
+        .hint = "call the printf function",
+        .solution = "call the print function by replacing ??? with printf",
     },
     {
-        .file = "002_task.c",
-        .output = "we called function 2",
-        .hint = "TODO",
-        .solution = "TODO",
+        .file = "002_variables.c",
+        .output = "number 1 + number 2 = 150",
+        .hint = "1. enter the correct data types for number1 and number2 \n"
+                "2. use the right variable in the print statement",
+        .solution = "both number1 and number2 are integer types. replace ??? with number2 in the print statement",
     }
 };
 

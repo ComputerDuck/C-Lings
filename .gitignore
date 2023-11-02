@@ -1,5 +1,5 @@
 comp
 out/*
-!out/README.md
+!out/.gitkeep
 build/*
-!build/README.md
+!build/.gitkeep
